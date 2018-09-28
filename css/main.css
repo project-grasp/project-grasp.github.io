@@ -790,6 +790,11 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 1; }
+    @media only screen and (max-width: 600px) {
+    #bg:after {
+        background-image:url("/images/bg_tall.jpg");
+    }
+    }
   body.is-article-visible #bg:after {
     -moz-transform: scale(1.0825);
     -webkit-transform: scale(1.0825);
